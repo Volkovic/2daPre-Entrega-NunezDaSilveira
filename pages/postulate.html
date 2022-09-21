@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="../css/style-1.css">
+    <title>Document</title>
+</head>
+
+<body class="bg-dark">
+
+    <!-- NAVBAR -->
+
+    <header class="p-3 container bg-dark text-white border-bottom">
+        <h1 class="visually-hidden">Gamer Hero</h1>
+        <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+            <div class="row">
+                <div class="col">
+                    <a href="/">
+                        <img src="../Assets/gh.png" alt="Gamer Hero Logo" class="w-50">
+                    </a>
+                </div>
+                <div class="col-7">
+                    <nav class=" mt-5">
+                        <ul class="nav d-flex list-unstyled justify-content-end align-items-center mt-0 fs-3">
+                            <li><a href="./Pages/equipo.html" class="nav-link px-2 text-white">Equipo</a></li>
+                            <li><a href="./Pages/precios.html" class="nav-link px-2 text-white">FAQ</a></li>
+                            <li><a href="./Pages/postulate.html" class="nav-link px-2 text-white">Postulate</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="col-2 text-end mt-5">
+                    <button type="button" class="btn btn-outline-light me-2">Login</button>
+                    <button type="button" class="btn btn-gh">Sign-up</button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- FORM -->
+    <div class="container w-75 text-white my-5">
+        <form action="">
+            <div class="row">
+                <div class="col-12 col-lg-6 mb-3">
+                    <label for="name" class="form-label">Nombre</label>
+                    <input type="text" class="form-control" id="name" placeholder="Pepito">
+                </div>
+
+                <div class="col-12 col-lg-6 mb-3">
+                    <label for="lastname" class="form-label">Apellido</label>
+                    <input type="text" class="form-control" id="lastname" placeholder="Juarez">
+                </div>
+            </div>
+
+            <div class="col-12 mb-3">
+                <label for="email" class="form-label">Correo</label>
+                <input type="email" class="form-control" id="email" placeholder="pepito@asd.com">
+            </div>
+
+            <div class="col-12 mb-3">
+                <label for="description" class="form-label">Describete</label>
+                <textarea class="form-control" id="description" rows="3"></textarea>
+            </div>
+
+            <div class="col-12 mb-3">
+                <label for="submit" class="form-label btn btn-dark btn-lg btn-gh">Enviar</label>
+            </div>
+        </form>
+    </div>
+
+    <!--FOOTER -->
+    <div class="container">
+        <div class="row border-top d-flex">
+            <div class="col-6 w-50 col-lg-4 d-flex justify-content-start">
+                <img class="w-50" src="../Assets/gh.png" alt="">
+            </div>
+            <div class="col-6 col-lg-4 d-flex">
+                <ul class="justify-content-end align-items-center list-unstyled d-flex">
+                    <li class="ms-3"><a class="text-muted" href="#"><i class="bi bi-facebook"></i></a></li>
+                    <li class="ms-3"><a class="text-muted" href="#"><i class="bi bi-instagram"></i></a></li>
+                    <li class="ms-3"><a class="text-muted" href="#"><i class="bi bi-twitter"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- SCRIPT -->
+    <script src="../js/"></script>
+</body>
+
+</html>

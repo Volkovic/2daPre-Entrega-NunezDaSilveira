@@ -1,0 +1,37 @@
+
+/* -------------------TESTERS--------------- */
+.test{
+    border: solid violet 3px;
+}
+
+.test1{
+    border: solid yellow 3px;
+}
+
+.test2{
+    border: solid red 3px;
+}
+/* -------------------TESTERS--------------- */
+
+.b-red{
+    border: solid red 2px;
+}
+
+
+body{
+    background-color: rgb(56, 54, 54)
+}
+
+.btn-gh{
+    background-color: rgba(255, 93, 1, 1);
+}
+
+.btn-gh:hover{
+    background-color: white;
+    color: rgba(255, 93, 1, 1);
+}
+/* NO FUNCIONA EL HOVER */
+
+.card{
+    border: white 1px solid;
+}
